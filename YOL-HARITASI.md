@@ -72,15 +72,14 @@ enerji vb. panellerin tamamı Redis'ten okur. Redis olmadan "veri yok / stale" g
 - ✅ Ertelenmiş panel kabukları ve kanonik haber panelleri artık çevrili başlık kullanıyor
   (`panelDisplayName`).
 - ✅ 11 harita katmanı etiketi 27 dile eklendi.
-- ⏳ Kodda sabit İngilizce kalan yerler (öncelik sırasıyla):
-  1. Ülke brifingi paneli: "Summary / Full brief / Overview / Economy & trade / Create
-     story / Export report / Higher means more instability" — `CountryDeepDivePanel.ts`,
-     `country-brief-presentation.ts`, `ResilienceWidget.ts` (~40 metin).
-  2. Başlığı locale'de olmayan 28 panel (threat-timeline, forecast, 4 korelasyon paneli,
-     stock-analysis, daily-market-brief, chat-analyst, world-clock, national-debt ...).
-  3. Alt bilgi bağlantıları (Countries · Chokepoints · Pricing · Blog · Docs) — çoğu
-     upstream'in kendi sitesine gidiyor; Yerküre için ya kaldırılacak ya yerel sayfaya
-     bağlanacak.
+- ✅ Ülke brifingi paneli: 90+ sabit metin `countryBrief.ui.*` anahtarlarına taşındı
+  (özet/tam brifing, konu sekmeleri, bölüm başlıkları, yükleniyor/boş durumları).
+- ✅ Başlığı locale'de olmayan 45 panel için `panels.*` anahtarı eklendi; kurucular `t()` kullanıyor.
+- ✅ Test politikası: Türkçe için kopya payı sıfır; diğer 26 dil için yeni anahtarlarda
+  150'lik geçici İngilizce payı (`tests/app-locale-freshness.test.mjs`, `FORK_PLACEHOLDER_ALLOWANCE`).
+- ⏳ Alt bilgi bağlantıları (Countries · Chokepoints · Pricing · Blog · Docs) — çoğu
+  upstream'in kendi sitesine gidiyor; Yerküre için ya kaldırılacak ya yerel sayfaya bağlanacak.
+- ⏳ Panel içi ikincil metinler (tooltip, boş durum, tablo başlıkları) panel panel taranacak.
 - Kural: yeni metin eklerken İ/I ayrımı ve şapkalı harfler (yapay zekâ, harekât).
 
 ### ⏳ 6. Performans
