@@ -3929,5 +3929,12 @@
       "description": "تمكين مصادر إيران وإسرائيل والخليج والمنطقة الكردية"
     },
     "unavailable": "مجموعة {{preset}} غير متاحة مع لوحاتك الحالية"
+  },
+  "footer": {
+    "countries": "Countries",
+    "chokepoints": "Chokepoints",
+    "crises": "Crises",
+    "tools": "Tools",
+    "accuracy": "Accuracy"
   }
 }

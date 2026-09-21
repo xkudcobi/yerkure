@@ -3853,5 +3853,12 @@
       "description": "Активирайте източници за Иран, Израел, Персийския залив и кюрдските региони"
     },
     "unavailable": "Пакетът {{preset}} не е наличен с текущите ви панели"
+  },
+  "footer": {
+    "countries": "Countries",
+    "chokepoints": "Chokepoints",
+    "crises": "Crises",
+    "tools": "Tools",
+    "accuracy": "Accuracy"
   }
 }

@@ -1042,7 +1042,9 @@ export class PanelLayoutManager implements AppModule {
       : '';
     const referenceLinksHtml = DASHBOARD_REFERENCE_LINKS.map(({ label, path }) => {
       const href = `${referenceOrigin}${path}`;
-      return `<a href="${href}" target="_blank" rel="noopener">${label}</a>`;
+      const key = `footer.${path.split('/').join('')}`;
+      const translated = t(key);
+      return `<a href="${href}" target="_blank" rel="noopener">${translated && translated !== key ? translated : label}</a>`;
     }).join('');
 
     markLcpDebug('wm:layout:render-start');
@@ -1207,10 +1209,6 @@ export class PanelLayoutManager implements AppModule {
         <div class="mobile-menu-divider"></div>
         <div class="mobile-menu-footer-links">
           ${referenceLinksHtml}
-          <a href="${referenceOrigin}/pro#pricing" target="_blank" rel="noopener">Pricing</a>
-          <a href="https://www.worldmonitor.app/blog/" target="_blank" rel="noopener">Blog</a>
-          <a href="https://www.worldmonitor.app/docs/documentation" target="_blank" rel="noopener">Docs</a>
-          <a href="https://status.worldmonitor.app/" target="_blank" rel="noopener">Status</a>
         </div>
         <div class="mobile-menu-version">v${__APP_VERSION__}</div>
       </nav>
@@ -1295,12 +1293,7 @@ export class PanelLayoutManager implements AppModule {
         </div>
         <nav aria-label="Yerküre references">
           ${referenceLinksHtml}
-          <a href="${referenceOrigin}/pro#pricing" target="_blank" rel="noopener">Pricing</a>
-          <a href="https://www.worldmonitor.app/blog/" target="_blank" rel="noopener">Blog</a>
-          <a href="https://www.worldmonitor.app/docs/documentation" target="_blank" rel="noopener">Docs</a>
-          <a href="https://status.worldmonitor.app/" target="_blank" rel="noopener">Status</a>
           <a href="https://github.com/xkudcobi/yerkure" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://x.com/worldmonitorai" target="_blank" rel="noopener">X</a>
           ${this.ctx.isDesktopApp ? '' : `<span id="footerDownloadMount"></span>`}
         </nav>
         <span class="site-footer-copy">&copy; ${new Date().getFullYear()} Yerküre</span>

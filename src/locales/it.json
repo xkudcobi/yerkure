@@ -3872,5 +3872,12 @@
       "description": "Attiva le fonti su Iran, Israele, Golfo e regioni curde"
     },
     "unavailable": "Il preset {{preset}} non è disponibile con i pannelli attuali"
+  },
+  "footer": {
+    "countries": "Countries",
+    "chokepoints": "Chokepoints",
+    "crises": "Crises",
+    "tools": "Tools",
+    "accuracy": "Accuracy"
   }
 }

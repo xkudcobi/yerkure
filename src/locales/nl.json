@@ -3853,5 +3853,12 @@
       "description": "Bronnen over Iran, Israël, de Golf en Koerdische regio's inschakelen"
     },
     "unavailable": "Preset {{preset}} is niet beschikbaar met je huidige panelen"
+  },
+  "footer": {
+    "countries": "Countries",
+    "chokepoints": "Chokepoints",
+    "crises": "Crises",
+    "tools": "Tools",
+    "accuracy": "Accuracy"
   }
 }

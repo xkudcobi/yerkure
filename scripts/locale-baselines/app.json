@@ -3050,5 +3050,10 @@
   "panels.military-correlation": "Force Posture",
   "panels.escalation-correlation": "Escalation Monitor",
   "panels.economic-correlation": "Economic Warfare",
-  "panels.disaster-correlation": "Disaster Cascade"
+  "panels.disaster-correlation": "Disaster Cascade",
+  "footer.countries": "Countries",
+  "footer.chokepoints": "Chokepoints",
+  "footer.crises": "Crises",
+  "footer.tools": "Tools",
+  "footer.accuracy": "Accuracy"
 }

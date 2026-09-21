@@ -3891,5 +3891,12 @@
       "description": "Povolit zdroje z Íránu, Izraele, oblasti Perského zálivu a kurdských regionů"
     },
     "unavailable": "Balíček {{preset}} není s aktuálními panely dostupný"
+  },
+  "footer": {
+    "countries": "Countries",
+    "chokepoints": "Chokepoints",
+    "crises": "Crises",
+    "tools": "Tools",
+    "accuracy": "Accuracy"
   }
 }

@@ -3853,5 +3853,12 @@
       "description": "İran, İsrail, Körfez ve Kürt bölgelerine ilişkin kaynakları etkinleştirir"
     },
     "unavailable": "{{preset}} ön ayarı mevcut panellerinizle kullanılamıyor"
+  },
+  "footer": {
+    "countries": "Ülkeler",
+    "chokepoints": "Darboğazlar",
+    "crises": "Krizler",
+    "tools": "Araçlar",
+    "accuracy": "Doğruluk"
   }
 }

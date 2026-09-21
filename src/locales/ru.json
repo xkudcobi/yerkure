@@ -3891,5 +3891,12 @@
       "description": "Включить источники по Ирану, Израилю, странам Залива и курдским регионам"
     },
     "unavailable": "Пакет {{preset}} недоступен при текущем наборе панелей"
+  },
+  "footer": {
+    "countries": "Countries",
+    "chokepoints": "Chokepoints",
+    "crises": "Crises",
+    "tools": "Tools",
+    "accuracy": "Accuracy"
   }
 }

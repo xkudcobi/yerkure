@@ -3834,5 +3834,12 @@
       "description": "啟用伊朗、以色列、海灣和庫爾德地區來源"
     },
     "unavailable": "當前面板無法使用{{preset}}預設"
+  },
+  "footer": {
+    "countries": "Countries",
+    "chokepoints": "Chokepoints",
+    "crises": "Crises",
+    "tools": "Tools",
+    "accuracy": "Accuracy"
   }
 }

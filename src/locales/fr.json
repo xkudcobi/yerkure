@@ -3872,5 +3872,12 @@
       "description": "Activer les sources sur l'Iran, Israël, le Golfe et les régions kurdes"
     },
     "unavailable": "Le pack {{preset}} n'est pas disponible avec vos panneaux actuels"
+  },
+  "footer": {
+    "countries": "Countries",
+    "chokepoints": "Chokepoints",
+    "crises": "Crises",
+    "tools": "Tools",
+    "accuracy": "Accuracy"
   }
 }

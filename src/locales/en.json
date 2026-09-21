@@ -3852,5 +3852,12 @@
     "deleteTab": "Delete tab",
     "deleteTabAria": "Delete tab {{name}}",
     "tabNameAria": "Tab name"
+  },
+  "footer": {
+    "countries": "Countries",
+    "chokepoints": "Chokepoints",
+    "crises": "Crises",
+    "tools": "Tools",
+    "accuracy": "Accuracy"
   }
 }

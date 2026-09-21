@@ -3872,5 +3872,12 @@
       "description": "Activează sursele despre Iran, Israel, Golf și regiunile kurde"
     },
     "unavailable": "Presetul {{preset}} nu este disponibil cu panourile actuale"
+  },
+  "footer": {
+    "countries": "Countries",
+    "chokepoints": "Chokepoints",
+    "crises": "Crises",
+    "tools": "Tools",
+    "accuracy": "Accuracy"
   }
 }
