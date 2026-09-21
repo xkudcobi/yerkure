@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import * as d3 from 'd3';
 import { Panel } from './Panel';
 import { fetchServerInsights, getServerInsights, type ServerInsights } from '@/services/insights-loader';
@@ -37,7 +38,7 @@ export class ThreatTimelinePanel extends Panel {
   constructor() {
     super({
       id: 'threat-timeline',
-      title: 'Threat Timeline',
+      title: t('panels.threat-timeline'),
       showCount: false,
       infoTooltip: 'Seven-day threat-level distribution from intelligence insights.',
       defaultRowSpan: 2,

@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import { Panel } from './Panel';
 import { fetchTopicTimeline, INTEL_TOPICS } from '@/services/gdelt-intel';
 import { ensureHydrated } from '@/services/bootstrap';
@@ -165,7 +166,7 @@ export class NewsMarketCorrelationPanel extends Panel {
   constructor() {
     super({
       id: 'news-market-correlation',
-      title: 'News ↔ Markets',
+      title: t('panels.news-market-correlation'),
       showCount: false,
       className: 'panel-wide',
       defaultRowSpan: 2,

@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import { Panel } from './Panel';
 import { escapeHtml, sanitizeUrl, unsafeRawHtml } from '@/utils/sanitize';
 import { createLazyClient, getRpcBaseUrl, rpcFetch } from '@/services/rpc-client';
@@ -180,7 +181,7 @@ export class StorageFacilityMapPanel extends Panel {
   constructor() {
     super({
       id: 'storage-facility-map',
-      title: 'Strategic Storage Atlas',
+      title: t('panels.storage-facility-map'),
       defaultRowSpan: 2,
       infoTooltip:
         'Curated registry of strategic storage assets — underground gas storage, strategic ' +

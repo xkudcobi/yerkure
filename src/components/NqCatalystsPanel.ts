@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import type { EconomicServiceClient } from '@/generated/client/worldmonitor/economic/v1/service_client';
 import type { MarketServiceClient } from '@/generated/client/worldmonitor/market/v1/service_client';
 import { Panel } from './Panel';
@@ -45,7 +46,7 @@ export class NqCatalystsPanel extends Panel {
   constructor() {
     super({
       id: 'nq-catalysts',
-      title: 'NQ Catalysts',
+      title: t('panels.nq-catalysts'),
       showCount: false,
       infoTooltip: NQ_PULSE_DISCLOSURE,
     });

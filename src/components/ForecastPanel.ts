@@ -289,7 +289,7 @@ export class ForecastPanel extends Panel {
   private expandedTheaterId: string | null = null;
 
   constructor() {
-    super({ id: 'forecast', title: 'AI Forecasts', showCount: true, infoTooltip: t('components.forecast.infoTooltip') });
+    super({ id: 'forecast', title: t('panels.forecast'), showCount: true, infoTooltip: t('components.forecast.infoTooltip') });
     injectStyles();
     bindActivationKeys(this.content, '[data-fc-toggle]');
     this.content.addEventListener('click', (e) => {

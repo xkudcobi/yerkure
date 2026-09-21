@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import { Panel } from './Panel';
 import { getRpcBaseUrl } from '@/services/rpc-client';
 import { getHydratedData } from '@/services/bootstrap';
@@ -37,7 +38,7 @@ export class EnergyCrisisPanel extends Panel {
   constructor() {
     super({
       id: 'energy-crisis',
-      title: 'Energy Crisis Tracker',
+      title: t('panels.energy-crisis'),
       showCount: true,
       trackActivity: true,
       defaultRowSpan: 2,

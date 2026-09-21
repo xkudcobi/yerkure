@@ -77,7 +77,7 @@ export class CotPositioningPanel extends Panel {
   private _hasData = false;
 
   constructor() {
-    super({ id: 'cot-positioning', title: 'CFTC COT Positioning', showCount: false, infoTooltip: t('components.cotPositioning.infoTooltip') });
+    super({ id: 'cot-positioning', title: t('panels.cot-positioning'), showCount: false, infoTooltip: t('components.cotPositioning.infoTooltip') });
   }
 
   public async fetchData(): Promise<boolean> {

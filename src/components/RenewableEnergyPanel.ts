@@ -20,7 +20,7 @@ import { replaceChildren } from '@/utils/dom-utils';
 
 export class RenewableEnergyPanel extends Panel {
   constructor() {
-    super({ id: 'renewable', title: 'Renewable Energy', trackActivity: false, infoTooltip: t('components.renewable.infoTooltip') });
+    super({ id: 'renewable', title: t('panels.renewable'), trackActivity: false, infoTooltip: t('components.renewable.infoTooltip') });
   }
 
   /**

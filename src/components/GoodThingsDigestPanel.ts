@@ -19,7 +19,7 @@ export class GoodThingsDigestPanel extends Panel {
   private summaryAbort: AbortController | null = null;
 
   constructor() {
-    super({ id: 'digest', title: '5 Good Things', trackActivity: false });
+    super({ id: 'digest', title: t('panels.digest'), trackActivity: false });
     setTrustedHtml(this.content, trustedHtml('<p class="digest-placeholder">Loading today\u2019s digest\u2026</p>', "legacy direct innerHTML migration"));
   }
 

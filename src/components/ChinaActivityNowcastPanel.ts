@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import { Panel } from './Panel';
 import { getChinaActivityNowcastData } from '@/services/china-activity-nowcast';
 import { unsafeRawHtml } from '@/utils/sanitize';
@@ -10,7 +11,7 @@ export class ChinaActivityNowcastPanel extends Panel {
   constructor() {
     super({
       id: 'china-activity-nowcast',
-      title: 'China Activity Nowcast',
+      title: t('panels.china-activity-nowcast'),
       className: 'panel-wide',
       defaultRowSpan: 2,
       infoTooltip: 'A deterministic directional comparison of revision-aware official activity and reviewed proxy families. Missing and stale inputs are excluded; this is not a replacement GDP estimate.',

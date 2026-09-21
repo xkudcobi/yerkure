@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import { Panel } from './Panel';
 import { getNationalDebtData, type NationalDebtEntry } from '@/services/economic';
 import { escapeHtml, unsafeRawHtml } from '@/utils/sanitize';
@@ -126,7 +127,7 @@ export class NationalDebtPanel extends Panel {
   constructor() {
     super({
       id: 'national-debt',
-      title: 'National Debt Clock',
+      title: t('panels.national-debt'),
       showCount: true,
       infoTooltip: 'Live national debt estimates for 150+ countries. Data anchored at 2024-01-01 and accruing using IMF deficit projections.',
     });

@@ -26,7 +26,7 @@ export class MilitaryCorrelationPanel extends CorrelationPanel {
   private officialActivityDestroyed = false;
 
   constructor() {
-    super('military-correlation', 'Force Posture', 'military', t('components.militaryCorrelation.infoTooltip'));
+    super('military-correlation', t('panels.military-correlation'), 'military', t('components.militaryCorrelation.infoTooltip'));
     const hydrated = getHydratedData('crossStraitActivity');
     this.officialActivity = isCrossStraitActivitySnapshot(hydrated) ? hydrated : null;
     if (this.officialActivity) this.requestRender();

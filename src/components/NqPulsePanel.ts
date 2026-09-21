@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import { Panel } from './Panel';
 import { unsafeRawHtml } from '@/utils/sanitize';
 import { LatestRequestGuard } from '@/utils/latest-request-guard';
@@ -19,7 +20,7 @@ export class NqPulsePanel extends Panel {
   constructor() {
     super({
       id: 'nq-pulse',
-      title: 'NQ Pulse',
+      title: t('panels.nq-pulse'),
       showCount: false,
       infoTooltip: NQ_PULSE_DISCLOSURE,
     });

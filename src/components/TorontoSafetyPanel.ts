@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import { Panel } from './Panel';
 import type {
   GetTorontoSafetyResponse,
@@ -24,7 +25,7 @@ export class TorontoSafetyPanel extends Panel {
   constructor() {
     super({
       id: 'toronto-safety',
-      title: 'Toronto Safety',
+      title: t('panels.toronto-safety'),
       showCount: true,
       infoTooltip: 'Official retrospective Toronto Police Service datasets. Reported occurrences and annual calls-attended aggregates are separate. This is not live dispatch.',
     });

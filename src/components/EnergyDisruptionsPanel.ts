@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import { Panel } from './Panel';
 import { escapeHtml, unsafeRawHtml } from '@/utils/sanitize';
 import { createLazyClient, getRpcBaseUrl, rpcFetch } from '@/services/rpc-client';
@@ -77,7 +78,7 @@ export class EnergyDisruptionsPanel extends Panel {
   constructor() {
     super({
       id: 'energy-disruptions',
-      title: 'Energy Disruptions Log',
+      title: t('panels.energy-disruptions'),
       defaultRowSpan: 2,
       infoTooltip:
         'Curated log of disruption events affecting oil & gas pipelines and ' +

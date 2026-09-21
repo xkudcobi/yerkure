@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import { Panel } from './Panel';
 import {
   fetchChinaCorridorControlTowers,
@@ -111,7 +112,7 @@ export class ChinaCorridorPanel extends Panel {
   constructor() {
     super({
       id: 'china-corridors',
-      title: 'China Logistics Corridors',
+      title: t('panels.china-corridors'),
       className: 'panel-wide',
       defaultRowSpan: 2,
       infoTooltip: 'Transparent control towers for four reviewed China logistics corridors. Each condition retains its own source, time, availability, and freshness; no aggregate risk score is produced.',

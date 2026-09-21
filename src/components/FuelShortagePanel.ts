@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import { Panel } from './Panel';
 import { escapeHtml, sanitizeUrl, unsafeRawHtml } from '@/utils/sanitize';
 import { createLazyClient, getRpcBaseUrl, rpcFetch } from '@/services/rpc-client';
@@ -136,7 +137,7 @@ export class FuelShortagePanel extends Panel {
   constructor() {
     super({
       id: 'fuel-shortages',
-      title: 'Global Fuel Shortage Registry',
+      title: t('panels.fuel-shortages'),
       defaultRowSpan: 2,
       infoTooltip:
         'Global fuel-shortage alert registry (petrol, diesel, jet, heating oil). Severity ' +

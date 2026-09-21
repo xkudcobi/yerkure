@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import { Panel } from './Panel';
 import { createLazyClient, getRpcBaseUrl } from '@/services/rpc-client';
 import { premiumFetch } from '@/services/premium-fetch';
@@ -75,7 +76,7 @@ export class RegionalIntelligenceBoard extends Panel {
   constructor() {
     super({
       id: 'regional-intelligence',
-      title: 'Regional Intelligence',
+      title: t('panels.regional-intelligence'),
       infoTooltip:
         'Canonical regional intelligence brief: regime label, 7-axis balance vector, top actors, scenario lanes, transmission paths, and watchlist. One snapshot per region, refreshed every 6 hours.',
       premium: 'locked',

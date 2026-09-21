@@ -41,7 +41,10 @@ enerji vb. panellerin tamamı Redis'ten okur. Redis olmadan "veri yok / stale" g
 - `docker-compose.override.yml`: relay portu (3004) ana makineye açık; relay, dev
   sunucusuna `host.docker.internal:3000` ile ulaşır.
 - `bash scripts/run-seeders.sh` — ~150 seeder, ilk turda Redis'e ~1.000+ anahtar yazdı.
-- ⏳ Zamanlama: seeder'lar 30 dakikada bir çalışmalı (Görev Zamanlayıcı — aşağıya bakın).
+- ✅ Zamanlama: `docker-compose.override.yml` içindeki `seeders` servisi (Node 22) tüm seeder'ları
+  30 dakikada bir döngüyle çalıştırır; Docker ayakta olduğu sürece kendiliğinden sürer.
+  (Windows Görev Zamanlayıcı denendi; bu oturumda kalıcı sistem değişikliği izni yoktu —
+  gerekirse `scripts/yerkure-seed.cmd` ile elle kurulabilir.)
 - ⚠️ Node 24 / Windows: bazı seeder'lar çıkışta `UV_HANDLE_CLOSING` assertion'ı basıyor.
   Veri yazımı bundan önce tamamlanıyor; kozmetik ama "FAIL" sayıyor. Node 22 LTS ile
   çalıştırmak temizler (`nvm use 22`).
@@ -64,7 +67,7 @@ enerji vb. panellerin tamamı Redis'ten okur. Redis olmadan "veri yok / stale" g
 - ⏳ HTTP (şifresiz) akışlar HTTPS dağıtımda tarayıcıca engellenir → küçük bir
   `/api/radio-proxy` gerekecek (yerelde http://localhost'ta sorun yok).
 
-### 🔄 5. Türkçe tamamlama
+### ✅ 5. Türkçe tamamlama (büyük ölçüde)
 - ✅ `tr.json`: 700+ kırpık-karakterli metin, 95 büyük-harf I/İ, 335 İngilizce anahtar.
 - ✅ Ertelenmiş panel kabukları ve kanonik haber panelleri artık çevrili başlık kullanıyor
   (`panelDisplayName`).
@@ -81,7 +84,7 @@ enerji vb. panellerin tamamı Redis'ten okur. Redis olmadan "veri yok / stale" g
 - Kural: yeni metin eklerken İ/I ayrımı ve şapkalı harfler (yapay zekâ, harekât).
 
 ### ⏳ 6. Performans
-- Varsayılan açık katman sayısı 13 → "performans bildirimi" çıkıyor; varsayılanı 8'e çek.
+- ✅ Varsayılan katmanlardan `canadaAlerts` çıkarıldı (13 → 12); "performans bildirimi" artık açılışta çıkmıyor.
 - Sentry / Umami / Clerk / Convex istemci kodunu yönetici modunda hiç yükleme
   (`isClerkAuthEnabled()` zaten kapalı; Sentry DSN boş; Convex URL boş — doğrula).
 - `en.shell.json` boyut bütçesi upstream'de de aşılmış (54 KB > 52 KB); önemsiz.

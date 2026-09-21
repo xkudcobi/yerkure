@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import { Panel } from './Panel';
 import { escapeHtml, unsafeRawHtml } from '@/utils/sanitize';
 
@@ -90,7 +91,7 @@ export class CrossSourceSignalsPanel extends Panel {
   constructor() {
     super({
       id: 'cross-source-signals',
-      title: 'Cross-Source Signal Aggregator',
+      title: t('panels.cross-source-signals'),
       showCount: true,
       trackActivity: true,
       infoTooltip: 'Aggregates 15+ real-time data streams every 15 minutes. Ranks cross-domain signals by severity and detects composite escalation when 3 or more signal categories co-fire in the same theater.',

@@ -91,7 +91,7 @@ export class EconomicCalendarPanel extends Panel {
   private _region: RegionFilter = 'all';
 
   constructor() {
-    super({ id: 'economic-calendar', title: 'Economic Calendar', showCount: false, infoTooltip: t('components.economicCalendar.infoTooltip') });
+    super({ id: 'economic-calendar', title: t('panels.economic-calendar'), showCount: false, infoTooltip: t('components.economicCalendar.infoTooltip') });
     this.content.addEventListener('click', (e) => {
       const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('button[data-region]');
       if (!btn) return;

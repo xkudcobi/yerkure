@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 import { Panel } from './Panel';
 import {
   WEBMCP_PROCUREMENT_COUNTRY_CODE_CHARS,
@@ -141,7 +142,7 @@ export class GlobalProcurementPanel extends Panel {
   constructor() {
     super({
       id: 'global-procurement',
-      title: 'Global Procurement',
+      title: t('panels.global-procurement'),
       defaultRowSpan: 2,
       showCount: true,
       premium: 'locked',

@@ -1,3 +1,4 @@
+import { t } from '@/services/i18n';
 // Energy Risk Overview Panel
 //
 // One consolidated executive surface composing five existing data sources:
@@ -86,7 +87,7 @@ export class EnergyRiskOverviewPanel extends Panel {
   constructor() {
     super({
       id: 'energy-risk-overview',
-      title: 'Global Energy Risk Overview',
+      title: t('panels.energy-risk-overview'),
       defaultRowSpan: 1,
       infoTooltip:
         'Consolidated executive view: Strait of Hormuz vessel status, EU gas ' +

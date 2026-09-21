@@ -179,7 +179,7 @@ export class WorldClockPanel extends Panel {
   private clockRefs = new Map<string, ClockRefs>();
 
   constructor() {
-    super({ id: 'world-clock', title: 'World Clock', trackActivity: false, infoTooltip: t('components.worldClock.infoTooltip') });
+    super({ id: 'world-clock', title: t('panels.world-clock'), trackActivity: false, infoTooltip: t('components.worldClock.infoTooltip') });
     this.homeCityId = detectHomeCity();
     this.selectedCities = loadSelectedCities();
 

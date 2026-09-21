@@ -137,7 +137,7 @@ export class MacroTilesPanel extends Panel {
   private _china: GetChinaMacroSnapshotResponse | null = null;
 
   constructor() {
-    super({ id: 'macro-tiles', title: 'Macro Indicators', showCount: false, infoTooltip: t('components.macroTiles.infoTooltip') });
+    super({ id: 'macro-tiles', title: t('panels.macro-tiles'), showCount: false, infoTooltip: t('components.macroTiles.infoTooltip') });
 
     this.content.addEventListener('click', (e) => {
       const btn = (e.target as HTMLElement).closest<HTMLElement>('[data-tab]');
