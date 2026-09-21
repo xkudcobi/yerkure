@@ -1,0 +1,165 @@
+{
+  "comment": "Initial /dashboard bundle-size budgets (#7111). Gated on raw bytes: per chunk ±max(2048 B, 2%), total ±max(16384 B, 0.25%). The \"deferred\" section gates the application graph the entry imports on every visit with the same tolerances. Tolerance fields here are informational — the gate enforces its own constants and rejects a snapshot that disagrees. Regenerate after \"npm run build:pro && VITE_VARIANT=full ./node_modules/.bin/vite build\" with: npm run bundle:budgets",
+  "surface": "dashboard",
+  "variant": "full",
+  "tolerancePct": 2,
+  "toleranceBytes": 2048,
+  "totalTolerancePct": 0.25,
+  "totalToleranceBytes": 16384,
+  "total": {
+    "raw": 441071
+  },
+  "chunks": {
+    "clerk": {
+      "raw": 18229,
+      "files": 1
+    },
+    "convex-client": {
+      "raw": 3360,
+      "files": 1
+    },
+    "debugbear-rum": {
+      "raw": 28203,
+      "files": 1
+    },
+    "dom-utils": {
+      "raw": 2747,
+      "files": 1
+    },
+    "entitlements": {
+      "raw": 2477,
+      "files": 1
+    },
+    "font-settings": {
+      "raw": 465,
+      "files": 1
+    },
+    "geo-convergence": {
+      "raw": 46997,
+      "files": 1
+    },
+    "geo-distance": {
+      "raw": 28468,
+      "files": 1
+    },
+    "globe-marker-probe": {
+      "raw": 427,
+      "files": 1
+    },
+    "i18n": {
+      "raw": 124816,
+      "files": 2
+    },
+    "main": {
+      "raw": 126521,
+      "files": 1
+    },
+    "runtime-config": {
+      "raw": 10228,
+      "files": 1
+    },
+    "tauri-bridge": {
+      "raw": 1464,
+      "files": 1
+    },
+    "theme-colors": {
+      "raw": 45192,
+      "files": 1
+    },
+    "theme-manager": {
+      "raw": 1477,
+      "files": 1
+    }
+  },
+  "deferred": {
+    "total": {
+      "raw": 1375671
+    },
+    "chunks": {
+      "App": {
+        "raw": 902135,
+        "files": 1
+      },
+      "base": {
+        "raw": 2337,
+        "files": 1
+      },
+      "cached-risk-scores": {
+        "raw": 14907,
+        "files": 1
+      },
+      "checkout": {
+        "raw": 13203,
+        "files": 1
+      },
+      "continuous": {
+        "raw": 4507,
+        "files": 1
+      },
+      "cross-domain-storage": {
+        "raw": 409,
+        "files": 1
+      },
+      "feeds": {
+        "raw": 102203,
+        "files": 1
+      },
+      "gdelt-intel": {
+        "raw": 118416,
+        "files": 1
+      },
+      "index": {
+        "raw": 41627,
+        "files": 2
+      },
+      "layout-batch": {
+        "raw": 17357,
+        "files": 1
+      },
+      "markets": {
+        "raw": 9415,
+        "files": 1
+      },
+      "panel-storage": {
+        "raw": 1748,
+        "files": 1
+      },
+      "persistent-cache": {
+        "raw": 3735,
+        "files": 1
+      },
+      "pinned-webcams": {
+        "raw": 2073,
+        "files": 1
+      },
+      "sanitize": {
+        "raw": 1176,
+        "files": 1
+      },
+      "source-provenance": {
+        "raw": 78088,
+        "files": 1
+      },
+      "storage-facility-registry-store": {
+        "raw": 14204,
+        "files": 1
+      },
+      "string": {
+        "raw": 20823,
+        "files": 1
+      },
+      "sync-keys": {
+        "raw": 1073,
+        "files": 1
+      },
+      "user-location": {
+        "raw": 4584,
+        "files": 1
+      },
+      "widget-store": {
+        "raw": 21651,
+        "files": 1
+      }
+    }
+  }
+}
