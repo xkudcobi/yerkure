@@ -24,3 +24,13 @@ target/
 # node:test suite (production env + Sentry) on every request (WORLDMONITOR-VD).
 # Guarded by tests/deploy-config.test.mjs.
 api/**/*.test.mjs
+
+# Yerküre: yerel derleme artıkları ve test yüzeyleri (Vercel kendi derliyor)
+dist/
+.tmp-deploy-gate-*/
+pro-test/node_modules/
+blog-site/node_modules/
+tests/
+e2e/
+.audit/
+.agents/
