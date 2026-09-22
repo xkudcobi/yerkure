@@ -436,6 +436,10 @@ async function proxyDocsLocaleHtml(request: Request, url: URL, host: string): Pr
 }
 
 export const config = {
+  // Yerküre: Vercel'in Node varsayılanında uzantısız TS import'ları çözülmüyor
+  // (ERR_MODULE_NOT_FOUND). Edge paketleyicisi onları çözüyor; upstream'in de
+  // çalıştığı ortam bu.
+  runtime: 'edge',
   matcher: [
     '/mcp',
     '/api/:path*',
