@@ -2,6 +2,8 @@
 
 [Türkçe](README.tr.md)
 
+**🌍 Live draft: [yerkure.vercel.app](https://yerkure.vercel.app)** — work in progress; the draft serves the interface and news feeds, while the full data panels run in a local deployment.
+
 **Real-time global situational awareness dashboard** — live news, geopolitical signals, markets and infrastructure on a 3D globe, in one screen. Turkish-first, with 30+ interface languages.
 
 ![Yerküre dashboard](docs/images/worldmonitor-7-mar-2026.jpg)

@@ -2,6 +2,8 @@
 
 [English](README.md)
 
+**🌍 Canlı taslak: [yerkure.vercel.app](https://yerkure.vercel.app)** — geliştirme sürüyor; taslakta haber akışı ve arayüz canlıdır, veri panellerinin tamamı yerel kurulumda çalışır.
+
 **Gerçek zamanlı küresel durum farkındalığı panosu** — canlı haberler, jeopolitik sinyaller, piyasalar ve altyapı; hepsi tek ekranda, üç boyutlu bir yerküre üzerinde. Türkçe öncelikli, 30'dan fazla arayüz diliyle.
 
 ![Yerküre panosu](docs/images/worldmonitor-7-mar-2026.jpg)
