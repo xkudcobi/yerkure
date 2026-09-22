@@ -360,7 +360,7 @@ export const DOCS_PAGE_DATES: Record<string, { datePublished: string; dateModifi
   "scenario-engine": {"datePublished":"2026-09-21","dateModified":"2026-09-21"},
   "sdks": {"datePublished":"2026-09-21","dateModified":"2026-09-21"},
   "signal-intelligence": {"datePublished":"2026-09-21","dateModified":"2026-09-21"},
-  "source-attribution": {"datePublished":"2026-09-21","dateModified":"2026-09-21"},
+  "source-attribution": {"datePublished":"2026-09-21","dateModified":"2026-09-22"},
   "strategic-risk": {"datePublished":"2026-09-21","dateModified":"2026-09-21"},
   "support": {"datePublished":"2026-09-21","dateModified":"2026-09-21"},
   "terms": {"datePublished":"2026-09-21","dateModified":"2026-09-21"},

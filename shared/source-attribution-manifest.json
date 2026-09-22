@@ -58,11 +58,11 @@
     {
       "host": "27743.live.streamtheworld.com",
       "provider": "27743.live.streamtheworld.com",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit 27743.live.streamtheworld.com and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -326,11 +326,11 @@
     {
       "host": "air.pc.cdn.bitgravity.com",
       "provider": "air.pc.cdn.bitgravity.com",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit air.pc.cdn.bitgravity.com and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -1779,11 +1779,11 @@
     {
       "host": "av.rasset.ie",
       "provider": "av.rasset.ie",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit av.rasset.ie and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -3204,11 +3204,11 @@
     {
       "host": "dispatcher.rndfnk.com",
       "provider": "dispatcher.rndfnk.com",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit dispatcher.rndfnk.com and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -5032,11 +5032,11 @@
     {
       "host": "icast.connectmedia.hu",
       "provider": "icast.connectmedia.hu",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit icast.connectmedia.hu and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -5046,11 +5046,11 @@
     {
       "host": "icecast-vgtrk.cdnvideo.ru",
       "provider": "icecast-vgtrk.cdnvideo.ru",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit icecast-vgtrk.cdnvideo.ru and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -5060,11 +5060,11 @@
     {
       "host": "icecast.err.ee",
       "provider": "icecast.err.ee",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit icecast.err.ee and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -5074,11 +5074,11 @@
     {
       "host": "icecast.omroep.nl",
       "provider": "icecast.omroep.nl",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit icecast.omroep.nl and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -5088,11 +5088,11 @@
     {
       "host": "icecast.radiofrance.fr",
       "provider": "icecast.radiofrance.fr",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit icecast.radiofrance.fr and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -5102,11 +5102,11 @@
     {
       "host": "icecast.stv.livebox.sk",
       "provider": "icecast.stv.livebox.sk",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit icecast.stv.livebox.sk and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -5116,11 +5116,11 @@
     {
       "host": "icecast.vrtcdn.be",
       "provider": "icecast.vrtcdn.be",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit icecast.vrtcdn.be and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -5130,11 +5130,11 @@
     {
       "host": "icestreaming.rai.it",
       "provider": "icestreaming.rai.it",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit icestreaming.rai.it and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -6017,11 +6017,11 @@
     {
       "host": "lyd.nrk.no",
       "provider": "lyd.nrk.no",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit lyd.nrk.no and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -6364,11 +6364,11 @@
     {
       "host": "mp3.rtvslo.si",
       "provider": "mp3.rtvslo.si",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit mp3.rtvslo.si and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -6505,11 +6505,11 @@
     {
       "host": "netradio.ruv.is",
       "provider": "netradio.ruv.is",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit netradio.ruv.is and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -6745,11 +6745,11 @@
     {
       "host": "ngcdn001.cnr.cn",
       "provider": "ngcdn001.cnr.cn",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit ngcdn001.cnr.cn and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -6832,11 +6832,11 @@
     {
       "host": "npr-ice.streamguys1.com",
       "provider": "npr-ice.streamguys1.com",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit npr-ice.streamguys1.com and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -7129,11 +7129,11 @@
     {
       "host": "orf-live.ors-shoutcast.at",
       "provider": "orf-live.ors-shoutcast.at",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit orf-live.ors-shoutcast.at and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -7371,11 +7371,11 @@
     {
       "host": "playerservices.streamtheworld.com",
       "provider": "playerservices.streamtheworld.com",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit playerservices.streamtheworld.com and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -7776,11 +7776,11 @@
     {
       "host": "radio-trtfm.live.trt.com.tr",
       "provider": "radio-trtfm.live.trt.com.tr",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit radio-trtfm.live.trt.com.tr and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -7790,11 +7790,11 @@
     {
       "host": "radio-trtnagme.live.trt.com.tr",
       "provider": "radio-trtnagme.live.trt.com.tr",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit radio-trtnagme.live.trt.com.tr and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -7804,11 +7804,11 @@
     {
       "host": "radio-trtradyo1.live.trt.com.tr",
       "provider": "radio-trtradyo1.live.trt.com.tr",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit radio-trtradyo1.live.trt.com.tr and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -7818,11 +7818,11 @@
     {
       "host": "radio-trtradyo3.live.trt.com.tr",
       "provider": "radio-trtradyo3.live.trt.com.tr",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit radio-trtradyo3.live.trt.com.tr and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -7832,11 +7832,11 @@
     {
       "host": "radio-trtradyohaber.live.trt.com.tr",
       "provider": "radio-trtradyohaber.live.trt.com.tr",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit radio-trtradyohaber.live.trt.com.tr and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -7846,11 +7846,11 @@
     {
       "host": "radio-trtturku.live.trt.com.tr",
       "provider": "radio-trtturku.live.trt.com.tr",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit radio-trtturku.live.trt.com.tr and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -7860,11 +7860,11 @@
     {
       "host": "radiocast.rtp.pt",
       "provider": "radiocast.rtp.pt",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit radiocast.rtp.pt and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -7874,11 +7874,11 @@
     {
       "host": "radios.rtbf.be",
       "provider": "radios.rtbf.be",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit radios.rtbf.be and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -7888,11 +7888,11 @@
     {
       "host": "radiostreaming.ert.gr",
       "provider": "radiostreaming.ert.gr",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit radiostreaming.ert.gr and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -8154,11 +8154,11 @@
     {
       "host": "rozhlas.stream",
       "provider": "rozhlas.stream",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit rozhlas.stream and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -8348,11 +8348,11 @@
     {
       "host": "sa.mp3.icecast.magma.edge-access.net",
       "provider": "sa.mp3.icecast.magma.edge-access.net",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit sa.mp3.icecast.magma.edge-access.net and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -8876,11 +8876,11 @@
     {
       "host": "st01.sslstream.dlf.de",
       "provider": "st01.sslstream.dlf.de",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit st01.sslstream.dlf.de and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -8890,11 +8890,11 @@
     {
       "host": "st02.sslstream.dlf.de",
       "provider": "st02.sslstream.dlf.de",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit st02.sslstream.dlf.de and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -8904,11 +8904,11 @@
     {
       "host": "st03.sslstream.dlf.de",
       "provider": "st03.sslstream.dlf.de",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit st03.sslstream.dlf.de and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -9194,11 +9194,11 @@
     {
       "host": "stream.live.vc.bbcmedia.co.uk",
       "provider": "stream.live.vc.bbcmedia.co.uk",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit stream.live.vc.bbcmedia.co.uk and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -9208,11 +9208,11 @@
     {
       "host": "stream.srg-ssr.ch",
       "provider": "stream.srg-ssr.ch",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit stream.srg-ssr.ch and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -9222,11 +9222,11 @@
     {
       "host": "stream2.srr.ro",
       "provider": "stream2.srr.ro",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit stream2.srr.ro and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -10108,11 +10108,11 @@
     {
       "host": "tv.cdn.xsg.ge",
       "provider": "tv.cdn.xsg.ge",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit tv.cdn.xsg.ge and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"
@@ -10597,11 +10597,11 @@
     {
       "host": "whmsonic.radio.gov.pk",
       "provider": "whmsonic.radio.gov.pk",
-      "kind": "structured",
+      "kind": "feed",
       "observed": true,
-      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
-      "attribution": "Credit whmsonic.radio.gov.pk and link to the original upstream API/dataset.",
-      "status": "terms-review",
+      "license": "Excluded: live-video playback transport; channel/provider terms apply separately",
+      "attribution": "Excluded from the external-provider count: presentation-only HLS stream, not an ingested dataset.",
+      "status": "excluded",
       "references": [
         {
           "path": "src/config/state-radio.ts"

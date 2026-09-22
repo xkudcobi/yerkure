@@ -57,8 +57,10 @@ const FEED_FILES = new Set([
   // provider count below.
   'src/components/LiveNewsPanel.ts',
   'src/services/live-channels.ts',
+  // Yerküre: devlet radyosu akışları da yalnızca oynatma aktarımıdır.
+  'src/config/state-radio.ts',
 ]);
-const PRESENTATION_ONLY_FILES = new Set(['src/components/LiveNewsPanel.ts', 'src/services/live-channels.ts']);
+const PRESENTATION_ONLY_FILES = new Set(['src/components/LiveNewsPanel.ts', 'src/services/live-channels.ts', 'src/config/state-radio.ts']);
 const STATUS_FILE = 'server/worldmonitor/infrastructure/v1/list-service-statuses.ts';
 
 // URL literals are intentionally parsed before classification.  This catches
