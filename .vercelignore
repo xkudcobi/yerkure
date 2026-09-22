@@ -34,3 +34,23 @@ tests/
 e2e/
 .audit/
 .agents/
+
+# Yerküre taslak yayını: Hobby planı dağıtım başına 12 sunucusuz işlevle sınırlı.
+# Yardımcı modüller (api/_*) işlev sayılmaz, bu yüzden tutuluyor.
+api/*.ts
+api/*.js
+api/*/v1/
+!api/_*
+!api/[...notfound].ts
+!api/rss-proxy.js
+!api/bootstrap.js
+!api/health.js
+!api/geo.js
+!api/news/v1/
+!api/market/v1/
+!api/seismology/v1/
+!api/climate/v1/
+!api/maritime/v1/
+!api/aviation/v1/
+!api/military/v1/
+!api/intelligence/v1/
