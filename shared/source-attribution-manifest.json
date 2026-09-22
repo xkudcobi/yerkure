@@ -56,6 +56,20 @@
       ]
     },
     {
+      "host": "27743.live.streamtheworld.com",
+      "provider": "27743.live.streamtheworld.com",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit 27743.live.streamtheworld.com and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
       "host": "36kr.com",
       "provider": "36kr.com",
       "kind": "feed",
@@ -306,6 +320,20 @@
         },
         {
           "path": "scripts/seed-gie-gas-storage.mjs"
+        }
+      ]
+    },
+    {
+      "host": "air.pc.cdn.bitgravity.com",
+      "provider": "air.pc.cdn.bitgravity.com",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit air.pc.cdn.bitgravity.com and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
         }
       ]
     },
@@ -1749,6 +1777,20 @@
       ]
     },
     {
+      "host": "av.rasset.ie",
+      "provider": "av.rasset.ie",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit av.rasset.ie and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
       "host": "ayibopost.com",
       "provider": "AyiboPost",
       "kind": "feed",
@@ -3156,6 +3198,20 @@
       "references": [
         {
           "path": "server/worldmonitor/infrastructure/v1/list-service-statuses.ts"
+        }
+      ]
+    },
+    {
+      "host": "dispatcher.rndfnk.com",
+      "provider": "dispatcher.rndfnk.com",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit dispatcher.rndfnk.com and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
         }
       ]
     },
@@ -4974,6 +5030,118 @@
       ]
     },
     {
+      "host": "icast.connectmedia.hu",
+      "provider": "icast.connectmedia.hu",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit icast.connectmedia.hu and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "icecast-vgtrk.cdnvideo.ru",
+      "provider": "icecast-vgtrk.cdnvideo.ru",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit icecast-vgtrk.cdnvideo.ru and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "icecast.err.ee",
+      "provider": "icecast.err.ee",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit icecast.err.ee and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "icecast.omroep.nl",
+      "provider": "icecast.omroep.nl",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit icecast.omroep.nl and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "icecast.radiofrance.fr",
+      "provider": "icecast.radiofrance.fr",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit icecast.radiofrance.fr and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "icecast.stv.livebox.sk",
+      "provider": "icecast.stv.livebox.sk",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit icecast.stv.livebox.sk and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "icecast.vrtcdn.be",
+      "provider": "icecast.vrtcdn.be",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit icecast.vrtcdn.be and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "icestreaming.rai.it",
+      "provider": "icestreaming.rai.it",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit icestreaming.rai.it and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
       "host": "ici.radio-canada.ca",
       "provider": "ici.radio-canada.ca",
       "kind": "feed",
@@ -5847,6 +6015,20 @@
       ]
     },
     {
+      "host": "lyd.nrk.no",
+      "provider": "lyd.nrk.no",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit lyd.nrk.no and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
       "host": "macleans.ca",
       "provider": "macleans.ca",
       "kind": "feed",
@@ -6180,6 +6362,20 @@
       ]
     },
     {
+      "host": "mp3.rtvslo.si",
+      "provider": "mp3.rtvslo.si",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit mp3.rtvslo.si and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
       "host": "mshibanami.github.io",
       "provider": "mshibanami.github.io",
       "kind": "feed",
@@ -6303,6 +6499,20 @@
       "references": [
         {
           "path": "src/services/live-channels.ts"
+        }
+      ]
+    },
+    {
+      "host": "netradio.ruv.is",
+      "provider": "netradio.ruv.is",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit netradio.ruv.is and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
         }
       ]
     },
@@ -6533,6 +6743,20 @@
       ]
     },
     {
+      "host": "ngcdn001.cnr.cn",
+      "provider": "ngcdn001.cnr.cn",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit ngcdn001.cnr.cn and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
       "host": "nhkwlive-ojp.akamaized.net",
       "provider": "nhkwlive-ojp.akamaized.net",
       "kind": "feed",
@@ -6602,6 +6826,20 @@
       "references": [
         {
           "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
+      "host": "npr-ice.streamguys1.com",
+      "provider": "npr-ice.streamguys1.com",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit npr-ice.streamguys1.com and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
         }
       ]
     },
@@ -6889,6 +7127,20 @@
       ]
     },
     {
+      "host": "orf-live.ors-shoutcast.at",
+      "provider": "orf-live.ors-shoutcast.at",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit orf-live.ors-shoutcast.at and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
       "host": "ott.tv5monde.com",
       "provider": "ott.tv5monde.com",
       "kind": "feed",
@@ -7113,6 +7365,20 @@
       "references": [
         {
           "path": "scripts/seed-security-advisories.mjs"
+        }
+      ]
+    },
+    {
+      "host": "playerservices.streamtheworld.com",
+      "provider": "playerservices.streamtheworld.com",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit playerservices.streamtheworld.com and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
         }
       ]
     },
@@ -7508,6 +7774,132 @@
       ]
     },
     {
+      "host": "radio-trtfm.live.trt.com.tr",
+      "provider": "radio-trtfm.live.trt.com.tr",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit radio-trtfm.live.trt.com.tr and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "radio-trtnagme.live.trt.com.tr",
+      "provider": "radio-trtnagme.live.trt.com.tr",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit radio-trtnagme.live.trt.com.tr and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "radio-trtradyo1.live.trt.com.tr",
+      "provider": "radio-trtradyo1.live.trt.com.tr",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit radio-trtradyo1.live.trt.com.tr and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "radio-trtradyo3.live.trt.com.tr",
+      "provider": "radio-trtradyo3.live.trt.com.tr",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit radio-trtradyo3.live.trt.com.tr and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "radio-trtradyohaber.live.trt.com.tr",
+      "provider": "radio-trtradyohaber.live.trt.com.tr",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit radio-trtradyohaber.live.trt.com.tr and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "radio-trtturku.live.trt.com.tr",
+      "provider": "radio-trtturku.live.trt.com.tr",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit radio-trtturku.live.trt.com.tr and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "radiocast.rtp.pt",
+      "provider": "radiocast.rtp.pt",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit radiocast.rtp.pt and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "radios.rtbf.be",
+      "provider": "radios.rtbf.be",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit radios.rtbf.be and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "radiostreaming.ert.gr",
+      "provider": "radiostreaming.ert.gr",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit radiostreaming.ert.gr and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
       "host": "radnet.epa.gov",
       "provider": "EPA RadNet",
       "kind": "structured",
@@ -7760,6 +8152,20 @@
       ]
     },
     {
+      "host": "rozhlas.stream",
+      "provider": "rozhlas.stream",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit rozhlas.stream and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
       "host": "rsf.org",
       "provider": "Reporters Without Borders (RSF)",
       "kind": "structured",
@@ -7936,6 +8342,20 @@
       "references": [
         {
           "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
+      "host": "sa.mp3.icecast.magma.edge-access.net",
+      "provider": "sa.mp3.icecast.magma.edge-access.net",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit sa.mp3.icecast.magma.edge-access.net and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
         }
       ]
     },
@@ -8454,6 +8874,48 @@
       ]
     },
     {
+      "host": "st01.sslstream.dlf.de",
+      "provider": "st01.sslstream.dlf.de",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit st01.sslstream.dlf.de and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "st02.sslstream.dlf.de",
+      "provider": "st02.sslstream.dlf.de",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit st02.sslstream.dlf.de and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "st03.sslstream.dlf.de",
+      "provider": "st03.sslstream.dlf.de",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit st03.sslstream.dlf.de and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
       "host": "state.gov",
       "provider": "state.gov",
       "kind": "feed",
@@ -8726,6 +9188,48 @@
       "references": [
         {
           "path": "src/services/live-channels.ts"
+        }
+      ]
+    },
+    {
+      "host": "stream.live.vc.bbcmedia.co.uk",
+      "provider": "stream.live.vc.bbcmedia.co.uk",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit stream.live.vc.bbcmedia.co.uk and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "stream.srg-ssr.ch",
+      "provider": "stream.srg-ssr.ch",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit stream.srg-ssr.ch and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
+      "host": "stream2.srr.ro",
+      "provider": "stream2.srr.ro",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit stream2.srr.ro and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
         }
       ]
     },
@@ -9477,6 +9981,23 @@
       ]
     },
     {
+      "host": "tr.euronews.com",
+      "provider": "tr.euronews.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit tr.euronews.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
       "host": "travel.state.gov",
       "provider": "travel.state.gov",
       "kind": "structured",
@@ -9581,6 +10102,20 @@
       "references": [
         {
           "path": "src/services/live-channels.ts"
+        }
+      ]
+    },
+    {
+      "host": "tv.cdn.xsg.ge",
+      "provider": "tv.cdn.xsg.ge",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit tv.cdn.xsg.ge and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
         }
       ]
     },
@@ -10060,6 +10595,20 @@
       "status": "excluded"
     },
     {
+      "host": "whmsonic.radio.gov.pk",
+      "provider": "whmsonic.radio.gov.pk",
+      "kind": "structured",
+      "observed": true,
+      "license": "Provider terms for this upstream API/dataset; verify before redistribution",
+      "attribution": "Credit whmsonic.radio.gov.pk and link to the original upstream API/dataset.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "src/config/state-radio.ts"
+        }
+      ]
+    },
+    {
       "host": "wiadomosci.onet.pl",
       "provider": "Onet",
       "kind": "feed",
@@ -10492,6 +11041,23 @@
       ]
     },
     {
+      "host": "www.aksam.com.tr",
+      "provider": "www.aksam.com.tr",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.aksam.com.tr and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
       "host": "www.alarabiya.net",
       "provider": "www.alarabiya.net",
       "kind": "feed",
@@ -10804,6 +11370,40 @@
       "references": [
         {
           "path": "scripts/seo-indexnow-submit.mjs"
+        }
+      ]
+    },
+    {
+      "host": "www.birgun.net",
+      "provider": "www.birgun.net",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.birgun.net and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
+      "host": "www.bloomberght.com",
+      "provider": "www.bloomberght.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.bloomberght.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
         }
       ]
     },
@@ -11201,6 +11801,23 @@
       ]
     },
     {
+      "host": "www.cumhuriyet.com.tr",
+      "provider": "www.cumhuriyet.com.tr",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.cumhuriyet.com.tr and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
       "host": "www.dabangasudan.org",
       "provider": "www.dabangasudan.org",
       "kind": "feed",
@@ -11337,6 +11954,23 @@
       ]
     },
     {
+      "host": "www.diken.com.tr",
+      "provider": "www.diken.com.tr",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.diken.com.tr and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
       "host": "www.dn.se",
       "provider": "www.dn.se",
       "kind": "feed",
@@ -11388,6 +12022,23 @@
       "observed": true,
       "license": "Provider terms for this feed publisher; verify before redistribution",
       "attribution": "Credit www.dr.dk and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
+      "host": "www.dunya.com",
+      "provider": "www.dunya.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.dunya.com and link to the original feed publisher.",
       "status": "terms-review",
       "references": [
         {
@@ -11574,6 +12225,23 @@
       ]
     },
     {
+      "host": "www.evrensel.net",
+      "provider": "www.evrensel.net",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.evrensel.net and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
       "host": "www.facebook.com",
       "provider": "www.facebook.com",
       "kind": "structured",
@@ -11750,6 +12418,23 @@
       "observed": true,
       "license": "Provider terms for this feed publisher; verify before redistribution",
       "attribution": "Credit www.g4media.ro and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
+      "host": "www.gazeteduvar.com.tr",
+      "provider": "www.gazeteduvar.com.tr",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.gazeteduvar.com.tr and link to the original feed publisher.",
       "status": "terms-review",
       "references": [
         {
@@ -11953,6 +12638,23 @@
       ]
     },
     {
+      "host": "www.haberturk.com",
+      "provider": "www.haberturk.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.haberturk.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
       "host": "www.haitilibre.com",
       "provider": "HaitiLibre English",
       "kind": "feed",
@@ -12134,6 +12836,23 @@
       ]
     },
     {
+      "host": "www.indyturk.com",
+      "provider": "www.indyturk.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.indyturk.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
       "host": "www.infobae.com",
       "provider": "www.infobae.com",
       "kind": "feed",
@@ -12273,6 +12992,23 @@
       "observed": true,
       "license": "Provider terms for this feed publisher; verify before redistribution",
       "attribution": "Credit www.jutarnji.hr and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
+      "host": "www.karar.com",
+      "provider": "www.karar.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.karar.com and link to the original feed publisher.",
       "status": "terms-review",
       "references": [
         {
@@ -12488,6 +13224,23 @@
       "observed": true,
       "license": "Provider terms for this feed publisher; verify before redistribution",
       "attribution": "Credit www.militarytimes.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
+      "host": "www.milliyet.com.tr",
+      "provider": "www.milliyet.com.tr",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.milliyet.com.tr and link to the original feed publisher.",
       "status": "terms-review",
       "references": [
         {
@@ -12753,6 +13506,23 @@
       "observed": true,
       "license": "Provider terms for this feed publisher; verify before redistribution",
       "attribution": "Credit www.nrk.no and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
+      "host": "www.ntv.com.tr",
+      "provider": "www.ntv.com.tr",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.ntv.com.tr and link to the original feed publisher.",
       "status": "terms-review",
       "references": [
         {
@@ -13219,6 +13989,23 @@
       ]
     },
     {
+      "host": "www.sabah.com.tr",
+      "provider": "www.sabah.com.tr",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.sabah.com.tr and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
       "host": "www.safe.gov.cn",
       "provider": "www.safe.gov.cn",
       "kind": "structured",
@@ -13437,6 +14224,23 @@
       ]
     },
     {
+      "host": "www.sozcu.com.tr",
+      "provider": "www.sozcu.com.tr",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.sozcu.com.tr and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
       "host": "www.spdrgoldshares.com",
       "provider": "www.spdrgoldshares.com",
       "kind": "structured",
@@ -13459,6 +14263,23 @@
       "attribution": "Credit www.spiegel.de and link to the original feed publisher.",
       "status": "terms-review",
       "references": [
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
+      "host": "www.star.com.tr",
+      "provider": "www.star.com.tr",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.star.com.tr and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
         {
           "path": "src/config/feeds.ts"
         }
@@ -13983,6 +14804,23 @@
       ]
     },
     {
+      "host": "www.trthaber.com",
+      "provider": "www.trthaber.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.trthaber.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
       "host": "www.tvanouvelles.ca",
       "provider": "www.tvanouvelles.ca",
       "kind": "feed",
@@ -14395,6 +15233,40 @@
         },
         {
           "path": "src/config/variants/tech.ts"
+        }
+      ]
+    },
+    {
+      "host": "www.yenicaggazetesi.com.tr",
+      "provider": "www.yenicaggazetesi.com.tr",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.yenicaggazetesi.com.tr and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
+        }
+      ]
+    },
+    {
+      "host": "www.yenisafak.com",
+      "provider": "www.yenisafak.com",
+      "kind": "feed",
+      "observed": true,
+      "license": "Provider terms for this feed publisher; verify before redistribution",
+      "attribution": "Credit www.yenisafak.com and link to the original feed publisher.",
+      "status": "terms-review",
+      "references": [
+        {
+          "path": "server/worldmonitor/news/v1/_feeds.ts"
+        },
+        {
+          "path": "src/config/feeds.ts"
         }
       ]
     },
