@@ -45,7 +45,6 @@ api/*/v1/
 !api/rss-proxy.js
 !api/bootstrap.js
 !api/health.js
-!api/geo.js
 !api/news/v1/
 !api/market/v1/
 !api/seismology/v1/
@@ -53,4 +52,3 @@ api/*/v1/
 !api/maritime/v1/
 !api/aviation/v1/
 !api/military/v1/
-!api/intelligence/v1/
